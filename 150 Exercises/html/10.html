@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 10 (150) </title>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      padding: 15px;
+    }
+
+    .second {
+      margin-top: 20px;
+    }
+
+    input {
+      margin-top: 5px;
+    }
+
+    .result {
+      margin-top: 20px;
+    }
+
+    button {
+      border: none;
+      cursor: pointer;
+      background: transparent;
+      margin-top: 15px;
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="first">
+      <span>
+        1st Number
+      </span>
+      <input type="text" name="1">
+
+    </div>
+    <div class="second">
+      <span>
+        2st Number
+      </span>
+      <input type="text" name="2">
+    </div>
+    <div class="buttons">
+      <button name="divisao">Divisão</button>
+      <button name="mult">Multiplicar</button>
+      <button name="clear">Limpar</button>
+    </div>
+
+    <div class="result">
+      <span>Resultado = <span id="span-result"></span> </span>
+    </div>
+  </div>
+
+  <script src="../10.js"></script>
+</body>
+
+</html>
