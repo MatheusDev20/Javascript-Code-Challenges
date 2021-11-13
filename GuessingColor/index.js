@@ -60,6 +60,9 @@ function setupMode() {
 		});
 	}
 }
+let a = 'B'
+
+
 
 function reset() {
 	colors = genRandomColors(numSquares);
